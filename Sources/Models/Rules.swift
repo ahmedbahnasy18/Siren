@@ -30,7 +30,8 @@ public struct Rules {
 
     /// Performs a version check immediately, but allows the user to skip updating the app until the next time the app becomes active.
     public static var annoying: Rules {
-        return Rules(promptFrequency: .immediately, forAlertType: .option)
+    /// [My Change] prevent alert presenting in minor update
+        return Rules(promptFrequency: .immediately, forAlertType: .none)
     }
 
     /// Performs a version check immediately and forces the user to update the app.

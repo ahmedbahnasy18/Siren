@@ -21,13 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /// Siren initializes a listener on `didBecomeActiveNotification` to perform version checks.
 
 //        defaultExample()
-        defaultExampleUsingCompletionHandler()
+//        defaultExampleUsingCompletionHandler()
 //        minimalCustomizationPresentationExample()
 //        forceLocalizationCustomizationPresentationExample()
 //        customMessagingPresentationExample()
 //        annoyingRuleExample()
 //        hyperCriticalRulesExample()
-//        updateSpecificRulesExample()
+        updateSpecificRulesExample()
 //        customAlertRulesExample()
 //        appStoreCountryChangeExample()
 //        complexExample()
